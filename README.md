@@ -55,6 +55,21 @@ Wazuh Integration
 Sysmon Event Correlation
 Threat Intelligence Enrichment
 Automated Reporting
+
+## Screenshots
+
+### PowerShell Detection
+
+![PowerShell Detection](screenshots/powershell_detection.png)
+
+### Process Creation Detection
+
+![Process Creation Detection](screenshots/process_creation_detection.png)
+
+### Network Connection Detection
+
+![Network Connection Detection](screenshots/network_connection_detection.png)
+
 Author
 Thabo Sakonta
 
