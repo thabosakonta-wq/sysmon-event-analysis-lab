@@ -1,0 +1,59 @@
+SYSMON INVESTIGATION REPORT
+
+Date: 2026-06-18
+
+Summary
+
+Sysmon logs were analyzed to identify potentially suspicious endpoint activity. Multiple detections were triggered involving PowerShell execution, process creation events, and outbound network connections.
+
+Findings
+
+PowerShell Activity
+Event ID: 1
+
+Process:
+powershell.exe
+
+Observation:
+Encoded PowerShell execution was detected.
+
+MITRE ATT&CK:
+T1059.001 – PowerShell
+
+Severity:
+Medium
+
+Process Creation Activity
+Event ID: 1
+
+Observation:
+Multiple processes were created during the analysis period.
+
+MITRE ATT&CK:
+T1059 – Command and Scripting Interpreter
+
+Severity:
+Medium
+
+Network Connection Activity
+Event ID: 3
+
+Observation:
+Outbound connections were detected to external destinations.
+
+MITRE ATT&CK:
+T1071 – Application Layer Protocol
+
+Severity:
+Medium
+
+Conclusion
+
+The detected activity demonstrates common security events investigated by SOC analysts. While the events are part of a controlled lab environment, they reflect behaviors frequently associated with attacker execution, command scripting, and network communications.
+
+Recommendations
+
+Review PowerShell execution activity.
+Investigate unusual outbound connections.
+Correlate endpoint telemetry with additional logs.
+Validate process creation events against expected system activity.

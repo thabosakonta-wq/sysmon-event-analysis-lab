@@ -1,0 +1,20 @@
+EventID: 1
+Process: cmd.exe
+User: Administrator
+
+EventID: 1
+Process: powershell.exe
+User: Administrator
+
+EventID: 3
+SourceIP: 10.10.10.50
+DestinationIP: 192.168.1.10
+
+EventID: 7
+Image Loaded: suspicious.dll
+
+EventID: 3
+SourceIP: 192.168.1.15
+DestinationIP: 8.8.8.8
+Process: chrome.exe
+Then rerun:

@@ -1,0 +1,16 @@
+EventID: 1
+Image: powershell.exe
+CommandLine: powershell.exe -enc SQBFAFgA
+
+EventID: 3
+SourceIP: 10.10.10.5
+DestinationIP: 8.8.8.8
+
+EventID: 7
+ImageLoaded: suspicious.dll
+
+EventID: 11
+TargetFilename: C:\Temp\malware.exe
+
+EventID: 13
+RegistryKey: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
